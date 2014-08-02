@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:concordion="http://www.concordion.org/2007/concordion"
+	lang="pt-BR">
+<head>
+<title>ATDD com Concordion</title>
+<link rel="stylesheet" type="text/css" href="../concordion.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+	<h1>Cadastrar o usuário no sistema com sucesso</h1>
+
+	<div class="example">
+
+		<h2>Exemplo</h2>
+
+		<p>Dado que o eleitor José da Silva deseja acompanhar seu representante no governo igual.</p>
+
+		<p>
+			Quando ele preencher o formulário de cadastro com o nome de usuário <b
+				concordion:set="#usuario">jose</b> e a senha <b
+				concordion:set="#senha">dasilva</b> e submetê-lo.
+		</p>
+
+		<p>
+			Então o sistema deve exibir a seguinte mensagem: <span
+				concordion:assertEquals="insereUsuario(#usuario, #senha)">O
+				usuário jose com a senha dasilva foi cadastrado com sucesso</span>
+		</p>
+	</div>
+</body>
+</html>

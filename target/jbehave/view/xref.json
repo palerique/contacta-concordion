@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1407002737216,
+  "createdBy": "JBehave",
+  "metaFilter": "-skip -ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "Possibilitar o cadastro de usuários",
+      "narrative": "In order to obter acesso ao sistema\u000aAs a Usuário\u000aI want to preencher um formulário com os dados necessários\u000a",
+      "name": "cadastrar_usuarios.story",
+      "path": "stories/usuarios/cadastrar_usuarios.story",
+      "html": "stories.usuarios.cadastrar_usuarios.html",
+      "meta": "",
+      "scenarios": "Scenario:Cadastrar o usuário no sistema com sucesso\u000aGiven o eleitor José da Silva deseja acompanhar seu representante no governo\u000aWhen ele preencher o formulário de cadastro com o nome de usuário jose e a senha dasilva e submetê-lo\u000aThen o sistema deve exibir a seguinte mensagem: O usuário jose com a senha dasilva foi cadastrado com sucesso\u000a\u000a\u000a",
+      "passed": true,
+      "pending": false,
+      "started": 1407002735117,
+      "duration": 460
+    }
+  ],
+  "stepMatches": []
+}}

@@ -1,0 +1,31 @@
+<xref>
+  <whenMade>1407002737216</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-skip -ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description>Possibilitar o cadastro de usuários</description>
+      <narrative>In order to obter acesso ao sistema
+As a Usuário
+I want to preencher um formulário com os dados necessários
+</narrative>
+      <name>cadastrar_usuarios.story</name>
+      <path>stories/usuarios/cadastrar_usuarios.story</path>
+      <html>stories.usuarios.cadastrar_usuarios.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Cadastrar o usuário no sistema com sucesso
+Given o eleitor José da Silva deseja acompanhar seu representante no governo
+When ele preencher o formulário de cadastro com o nome de usuário jose e a senha dasilva e submetê-lo
+Then o sistema deve exibir a seguinte mensagem: O usuário jose com a senha dasilva foi cadastrado com sucesso
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1407002735117</started>
+      <duration>460</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

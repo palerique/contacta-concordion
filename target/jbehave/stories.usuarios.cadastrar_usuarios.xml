@@ -1,0 +1,12 @@
+<story path="stories/usuarios/cadastrar_usuarios.story" title="Possibilitar o cadastro de usu&#225;rios">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">obter acesso ao sistema</inOrderTo>
+  <asA keyword="As a">Usu&#225;rio</asA>
+  <iWantTo keyword="I want to">preencher um formul&#225;rio com os dados necess&#225;rios</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Cadastrar o usu&#225;rio no sistema com sucesso">
+<step outcome="successful">Given o eleitor Jos&#233; da Silva deseja acompanhar seu representante no governo</step>
+<step outcome="successful">When ele preencher o formul&#225;rio de cadastro com o nome de usu&#225;rio <parameter>jose</parameter> e a senha <parameter>dasilva</parameter> e submet&#234;-lo</step>
+<step outcome="successful">Then o sistema deve exibir a seguinte mensagem: <parameter>O usu&#225;rio jose com a senha dasilva foi cadastrado com sucesso</parameter></step>
+</scenario>
+</story>
