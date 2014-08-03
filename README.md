@@ -1,4 +1,4 @@
-contacta
+contacta com Concordion
 ========
 
 Exemplo de automatização de testes de aceitação e BDD
